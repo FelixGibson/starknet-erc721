@@ -1,5 +1,6 @@
-artifacts/
-*DS_STORE
+.DS_Store
+.temp/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -7,10 +8,6 @@ __pycache__/
 
 # C extensions
 *.so
-
-# Env
-*.env
-*.accounts.json
 
 # Distribution / packaging
 .Python
@@ -134,6 +131,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-goerli.deployments.txt
-Makefile
-
+# vscode project settings
+.vscode/
