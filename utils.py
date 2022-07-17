@@ -27,3 +27,6 @@ def uint256(val):
 
 def hex_to_felt(val):
     return int(val, 16)
+
+
+print(hex_to_felt("0x4be820949abaa49aed57dda04149958475a56004dc49a7f076f1d32d88495c7"))
